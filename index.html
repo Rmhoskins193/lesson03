@@ -3,81 +3,154 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add a relevant page title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>WEB210 Assignment</title>
   </head>
+  
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Your Name</h1>
-        <h2>Job title or tagline</h2>
+        <div class="intro">
+          <h1>Ryan Hoskins</h1>
+          <h2>Product Support & Amateur Designer</h2>
 
-        <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-        <p>Add another paragraph if needed.</p>
+          <p>I come from a background of very different jobs ranging from guest services supervisor at a hotel to a technical support agent for a video game company. 
+            I have a diverse set of interests ranging from finances, design, photography, and web development.
+            Each role and interest has helped me in realizing what I love to do, what I have to offer, and what I need to achieve in order to accomplish my goals.
+          </p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>
+      <section class="projects-wrapper">
+        <div class="projects">
+          <h2>Featured Projects</h2>
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project">
+            <h3>Dog Treats Packaging</h3>
+            <img src="dogtreatpackage.png" alt="mockup of dog treats package showing a dog with sunglasses and tongue sticking out">
+            <p>Tasked with creating a packaging design concept for a fictional dog treat, I was involved in every phase of the 
+              project from initial designing to creating final deliverables of the package mockup. The fictional client requested a package in which
+              dog treats would be stored and sold with the request that it has a "Summer Vacation" theme to it and clearly provide specific information.
+            </p>
+            <a href="#" target="_blank">View project</a>
+          </section>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
-          <img src="project-thumbnail.png" alt="description of image">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
-        <!-- End of Project block. -->
+          <section class="project">
+            <h3>Convention Branding</h3>
+            <img src="Brandinglogo.png" alt="purple and blue logo of a book open with pages showing spread out">
+            <p>Crafting a logo representing a "Think Big" convention. In order to ensure a quality product, I researched into the target audience
+              and related demographics to create a logo that would appeal to them and the still portray the convention effectively. Adobe Illustrator was used to create 
+              final deliverables for the client. 
+            </p>
+            <a href="#" target="_blank">View project</a>
+          </section>
+
+          <section class="project">
+            <h3>Mobile Application UX/UI</h3>
+            <img src="UI.png" alt="screen from mobile application for a cooking application">
+            <p>Using Adobe XD to create a mockup for a cooking application on a phone that used effective UI/UX while abiding by
+              industry best practices. 
+            </p>
+            <a href="#" target="_blank">View project</a>
+          </section>
+        </div>
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+      <section class="work-history-wrapper">
+        <div class="work-history">
+          <h2>Work Experience</h2>
+          <p>
+          </p>
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section class="job">
+            <div class="job-info">
+              <h3>Product Support Expert</h3>
+              <p>Meltwater</p>
+              <p>July 2022</p>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Responsibilities:</p>
+              <ul>
+                <li>Delete this list if you don't need it.</li>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
+          </section>
 
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
-        </section>
-        <!-- End of Job block. -->
+          <section class="job">
+            <div class="job-info">
+              <h3>Player Experience Interactions Agent</h3>
+              <p>Ubisoft</p>
+              <p>October 2020 to July 2022</p>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Responsibilities:</p>
+              <ul>
+                <li>Exhibiting a professional level of customer service for clients at all times</li>
+                <li>Effective time management while maintaining quality in work</li>
+                <li>Diagnosing Network and System issues, Providing appropriate steps to resolve technical issues, and Utilizing resources to diagnose and resolve issues (DxDiag,
+                  network logs, SalesForce, MSinfo)</li>
+                <li>Staying up to date on common issues, inter-team communication, and game updates</li>
+                <li>Appropriate documentation of steps taken during interaction with client</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="job">
+            <div class="job-info">
+              <h3>Guest Services Supervisor</h3>
+              <p>The Renaissance Hotel</p>
+              <p>January 2019 to October 2020</p>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Responsibilities:</p>
+              <ul>
+                <li>Ensuring guest satisfaction with stay and experience at hotel.</li>
+                <li>Providing the guest with local attractions and restaurant suggestions</li>
+                <li>Handling high volumes of check-ins, calls, and assisting with events</li>
+                <li>Utilizing effective communication between departments within the hotel</li>
+                <li>Ensuring all standard and E-Commerce reservation are paid for and set up accordingly</li>
+              </ul>
+            </div>
+          </section>
+        </div>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <h2>Education</h2>
+      <section class="education">
+        <div class="education-wrapper">
+          <h2>Education</h2>
 
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
-        </section>
-        <!-- End of School block. -->
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Wake Technical Community College</h3>
+            <p>Associate in Science</p>
+            <p>January 2019 to December 2020</p>
+          </section>
+
+          <section>
+            <h3>Wake Technical Community College</h3>
+            <p>Associate in Engineering</p>
+            <p>January 2019 to May 201.</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
+        <div class="contact-wrapper">
+          <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="socials">
+            <li><a href="mailto:email@example.com">rmhoskins@my.waketech.edu</a></li>
+            <li><a href="https://wcet.waketech.edu/rmhoskins/WEB210/Lesson02/Lesson02Start.html" target="_blank">My Website</a></li>
+            <li><a href="https://www.linkedin.com/in/ryan-m-hoskins/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>

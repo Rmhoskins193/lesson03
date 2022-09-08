@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+
+main {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Hind', sans-serif;
+    line-height: 1.5;
+
+}
+
+/* Intro Styling */
+
+header {
+    border-right: 3em solid #8EC0E6;
+    border-left: 3em solid #8EC0E6;
+    text-align: center;
+}
+
+.intro{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 70%;
+    padding-bottom: 1em;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 5em;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Hind';
+    margin: 0;
+
+}
+
+a {
+    color: #0479C7 ;
+    transition: all 0.3s ease 0;
+}
+
+a:hover{
+    color: coral;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+}
+
+
