@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Montserrat:ital,wght@0,600;1,300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700italic);
 
+html{
+    box-sizing: border-box;
+}
+
+*: *::before, *::after {
+    box-sizing: inheret;
+}
 
 main {
     box-sizing: border-box;
@@ -11,7 +19,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', 'Hind', sans-serif;
-    line-height: 1.5;
 
 }
 
@@ -30,6 +37,18 @@ header {
     padding-bottom: 1em;
 }
 
+.fifties {
+  font-family: 'lobster two';
+  color: rgb(253, 109, 42);
+  text-shadow: 0 6px 1px rgb(210, 94, 40);
+  font-size: 8rem;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 0.25em;
+  line-height: 1;
+}
+
+
 h1 {
     margin: 0;
     padding-top: 40px;
@@ -41,8 +60,12 @@ h1 {
 h2 {
     text-align: center;
     font-style: italic;
-    font-family: 'Hind';
     margin: 0;
+    font-family: 'hind';
+    color: rgb(42, 112, 253);
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 1;
 
 }
 
@@ -56,5 +79,32 @@ a:hover{
     text-decoration: underline;
     transition: all 0.3s ease 0s;
 }
+.projects-wrapper{
+    border-right: 3em solid #5c7af0;
+    border-left: 3em solid #5c7af0;
+    padding-top: 5vh;
+}
 
+.projects{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 70%;
+    padding-bottom: 1em;
+
+}
+
+.project{
+    border-bottom: 2px dotted black;
+}
+.work-history-wrapper{
+    border-right: 3em solid #8EC0E6;
+    border-left: 3em solid #8EC0E6;
+}
+
+.work-history{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 70%;
+    padding-bottom: 1em;
+}
 
