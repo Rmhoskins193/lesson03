@@ -5,7 +5,7 @@ html{
     box-sizing: border-box;
 }
 
-*: *::before, *::after {
+*: *:before, *:after {
     box-sizing: inheret;
 }
 
@@ -25,8 +25,8 @@ body {
 /* Intro Styling */
 
 header {
-    border-right: 3em solid #8EC0E6;
-    border-left: 3em solid #8EC0E6;
+    border-right: 3em solid #8ed1e6;
+    border-left: 3em solid #8ed1e6;
     text-align: center;
 }
 
@@ -69,6 +69,9 @@ h2 {
 
 }
 
+h3 {
+    margin: 0;
+}
 a {
     color: #0479C7 ;
     transition: all 0.3s ease 0;
@@ -80,8 +83,8 @@ a:hover{
     transition: all 0.3s ease 0s;
 }
 .projects-wrapper{
-    border-right: 3em solid #5c7af0;
-    border-left: 3em solid #5c7af0;
+    border-right: 3em solid #5c8bf0;
+    border-left: 3em solid #5c8bf0;
     padding-top: 5vh;
 }
 
@@ -94,11 +97,22 @@ a:hover{
 }
 
 .project{
+    padding: 20px 0;
     border-bottom: 2px dotted black;
+    overflow: hidden;
+
 }
+
+.project img {
+    max-width: 300px;
+    float: left;
+    margin-right: 20px;    
+}
+
 .work-history-wrapper{
-    border-right: 3em solid #8EC0E6;
-    border-left: 3em solid #8EC0E6;
+    border-right: 3em solid #8f8ee6;
+    border-left: 3em solid #8f8ee6;
+    padding-top: 5vh;
 }
 
 .work-history{
@@ -106,5 +120,50 @@ a:hover{
     max-width: 90%;
     width: 70%;
     padding-bottom: 1em;
+}
+
+.job p {
+    margin: 0;
+}
+
+
+.education{
+    border-right: 3em solid #8c81ec;
+    border-left: 3em solid #8c81ec;
+    padding-top: 5vh;
+}
+
+.education-wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 70%;
+    padding-bottom: 1em;
+}
+
+footer {
+    height: 20vh;
+    border-right: 3em solid #8e75d3;
+    border-left: 3em solid #8e75d3;
+
+}
+
+.contact-wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 70%;
+    padding-top: 5vh;
+    color: aliceblue;
+    border-top: 2px dotted black;
+}
+
+.socials{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.socials a{
+    margin: 0 5px;
 }
 
